@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+ruby "3.3.5"
 gem "rails", "~> 7.2.2"
 gem "sprockets-rails"
 gem "puma", ">= 5.0"
@@ -27,7 +28,6 @@ group :development do
 end
 
 group :production do
-  ruby "3.1.4"
   gem "pg", "~> 1.5", ">= 1.5.9"
 end
 
